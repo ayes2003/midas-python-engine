@@ -12,7 +12,7 @@ A high-performance **microservices-based banking engine** built with **Python** 
 
 ### ⚡ Key Features
 * **Event-Driven Architecture:** Decoupled the transaction input (Kafka Producer) from the processor (Consumer) to handle high loads without crashing.
-* **🛡️ Fraud Guard System:** Implemented a rule-based logic layer that automatically detects and blocks high-value suspicious transactions (>$2000) before processing.
+* **Fraud Guard System:** Implemented a rule-based logic layer that automatically detects and blocks high-value suspicious transactions (>$2000) before processing.
 * **Fault Tolerance:** Built robust error handling to ensure core banking operations continue even if external microservices (like the Incentive API) fail.
 * **REST API:** Exposed real-time balance checks via a high-performance FastAPI endpoint.
 
